@@ -25,7 +25,6 @@ public class SpecBuilder {
 				log(LogDetail.ALL).
 				//log(LogDetail.URI).
 				build();
-				
 	}
 	
 	

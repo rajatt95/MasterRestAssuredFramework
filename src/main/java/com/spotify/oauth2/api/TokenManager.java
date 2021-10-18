@@ -49,11 +49,6 @@ public class TokenManager {
 	// public static String renewToken() {
 	private static Response renewToken() {
 		HashMap<String, String> formParams = new HashMap<String, String>();
-//		formParams.put("client_id", "568d41bc66f5436cb72d09bb4c6f5f6d");
-//		formParams.put("client_secret", "fa0a167372fb4d8ebdc84c3db543b92c");
-//		formParams.put("grant_type", "refresh_token");
-//		formParams.put("refresh_token",
-//				"AQAA4NY58s9oRvQoo6NpPvtZ38BhVu2STD8Fdii1-QIbeXgaYXbkcXo3mnMEdAvMuZvn6tEDXZC9zz1J552Um1N5wfZ4CEkexRb6oy-xCFMvq2_DiNh6SNomzADu85HvU6E");
 
 		formParams.put("client_id", ConfigLoader.getInstance().getClientID());
 		formParams.put("client_secret", ConfigLoader.getInstance().getClientSecret());
