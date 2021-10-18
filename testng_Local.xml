@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Automation Test Suite for Spotify Playlist APIs"
+	data-provider-thread-count="3">
+
+	<listeners>
+		<listener
+			class-name="com.spotify.oauth2.listeners.AnnotationTransformer"></listener>
+		<listener
+			class-name="com.spotify.oauth2.listeners.ListenerClass"></listener>
+		<listener
+			class-name="com.spotify.oauth2.listeners.MethodInterceptor"></listener>
+	</listeners>
+	<test name="Regression Tests execution for Spotify Playlist APIs"
+		thread-count="10" parallel="methods">
+		<packages>
+			<package name="com.spotify.oauth2.tests"></package>
+		</packages>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->
