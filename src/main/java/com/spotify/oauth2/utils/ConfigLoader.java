@@ -7,14 +7,6 @@ import com.spotify.oauth2.api.enums.EnvType;
 /*Singleton Design pattern*/
 public class ConfigLoader {
 
-	private static final String ENV = "env";
-	
-	/* Default config file is stg_config.properties */
-	private static final String STG_CONFIG_PROPERTIES = "stg_config.properties";
-	private static final String PROD_CONFIG_PROPERTIES = "prod_config.properties";
-	private static final String QA_CONFIG_PROPERTIES = "qa_config.properties";
-	private static final String INT_CONFIG_PROPERTIES = "int_config.properties";
-
 	private static final String CLIENT_ID = "client_id";
 	private static final String CLIENT_SECRET = "client_secret";
 	private static final String GRANT_TYPE = "grant_type";
@@ -28,6 +20,16 @@ public class ConfigLoader {
 	private static final String REQUEST_DETAILS_IN_REPORTS = "request_details_in_reports";
 	private static final String SEND_EMAIL_TO_USERS = "send_email_to_users";
 	private static final String RETRY_FAILED_TESTS = "retry_failed_tests";
+
+	private static final String ENV = "env";
+	private static final String CONFIG_PROPERTIES = "_config.properties";
+
+	/* Default config file is stg_config.properties */
+	private static final String STG_CONFIG_PROPERTIES = "stg" + CONFIG_PROPERTIES;
+	private static final String PROD_CONFIG_PROPERTIES = "prod" + CONFIG_PROPERTIES;
+	private static final String QA_CONFIG_PROPERTIES = "qa" + CONFIG_PROPERTIES;
+	private static final String INT_CONFIG_PROPERTIES = "int" + CONFIG_PROPERTIES;
+
 
 	private static final String RESOURCES_PATH = System.getProperty("user.dir") + "/src/test/resources/";
 	private Properties properties;
@@ -45,7 +47,7 @@ public class ConfigLoader {
 		String env = System.getProperty(ENV, EnvType.STAGE.toString());
 
 		switch (EnvType.valueOf(env)) {
-		
+
 		/* Only STAGE is working, Rest are taken for example */
 		case STAGE: {
 			properties = getConfigPropertyFile(STG_CONFIG_PROPERTIES);
