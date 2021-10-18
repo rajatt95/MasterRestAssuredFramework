@@ -4,14 +4,13 @@ With further updates - This project is designed and developed with the help of -
 2. YouTube playlist (Testing Mini Bytes)
 
 ------------------------------------------------------------
-![image](https://user-images.githubusercontent.com/26399692/135917549-ee1e000a-ce07-4051-89b1-b57ec9b6b9b7.png)
+![image](https://user-images.githubusercontent.com/26399692/137711606-67ffd3dc-41e9-4f46-8f6b-2b8072c08b30.png)
 ------------------------------------------------------------
 Updations done:
 ------------------------------------------------------------
 **ExtentReports V5** 
 1. User can apply the Filters - 
 - Author - Rajat, Nishant, Gautam, Pankaj 
-- Browser - Chrome, Edge, Safari, Firefox 
 - TestType - Smoke, Sanity, Regression, BVT
 
 2. Screenshots are attached in the ExtentReport as Base64 format.
