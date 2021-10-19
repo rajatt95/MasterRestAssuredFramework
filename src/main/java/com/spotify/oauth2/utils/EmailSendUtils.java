@@ -5,7 +5,9 @@ import javax.mail.internet.AddressException;
 
 import com.spotify.oauth2.constants.FrameworkConstants;
 import com.spotify.oauth2.java_Mail_API.EmailAttachmentsSender;
-import com.spotify.oauth2.java_Mail_API.TestConfig;
+import com.spotify.oauth2.java_Mail_API.EmailConfig;
+
+import static com.spotify.oauth2.java_Mail_API.EmailConfig.*;
 
 public class EmailSendUtils {
 
@@ -19,6 +21,7 @@ public class EmailSendUtils {
 
 			String messageBody = getTestCasesCountInFormat(count_totalTCs, count_passedTCs, count_failedTCs,
 					count_skippedTCs);
+			System.out.println(messageBody);
 
 			/*
 			 * String attachmentFile_ExtentReport = Constants.REPORTS_Folder +
@@ -27,28 +30,19 @@ public class EmailSendUtils {
 
 			String attachmentFile_ExtentReport = FrameworkConstants.getExtentReportFilePath();
 
-			// String attachmentFile_EMailableReport = Constants.Report_TestNG_Emailable;
-
-			System.out.println(messageBody);
-
 			try {
-				EmailAttachmentsSender.sendEmailWithAttachments(TestConfig.getServer(), TestConfig.getPort(),
-						TestConfig.getFrom(), TestConfig.getPassword(), TestConfig.getTo(), TestConfig.getSubject(),
-						messageBody, attachmentFile_ExtentReport
-				/* attachmentFile_EMailableReport *//* , attachmentFile_ExtentReports_Zip */);
+				EmailAttachmentsSender.sendEmailWithAttachments(SERVER, PORT,
+						FROM, PASSWORD, TO, SUBJECT, messageBody, attachmentFile_ExtentReport);
 
 				System.out.println("****************************************");
 				System.out.println("Email sent successfully.");
 				System.out.println("****************************************");
-			} catch (AddressException e) {
-				e.printStackTrace();
 			} catch (MessagingException e) {
 				e.printStackTrace();
 			}
 
-		} else {
-			// Not Sending any Email to User(s)
 		}
+
 	}
 
 	private static String getTestCasesCountInFormat(int count_totalTCs, int count_passedTCs, int count_failedTCs,
@@ -58,7 +52,7 @@ public class EmailSendUtils {
 		System.out.println("count_failedTCs: " + count_failedTCs);
 		System.out.println("count_skippedTCs: " + count_skippedTCs);
 
-		String messageBodyInFormat = "<html>\r\n" + "\r\n" + " \r\n" + "\r\n"
+		return "<html>\r\n" + "\r\n" + " \r\n" + "\r\n"
 				+ "        <body> \r\n<table class=\"container\" align=\"center\" style=\"padding-top:20px\">\r\n<tr align=\"center\"><td colspan=\"4\"><h2>"
 				+ FrameworkConstants.getProjectName() + "</h2></td></tr>\r\n<tr><td>\r\n\r\n"
 				+ "       <table style=\"background:#67c2ef;width:120px\" >\r\n"
@@ -83,8 +77,6 @@ public class EmailSendUtils {
 				+ "                </table>\r\n" + "                \r\n" + "                </td>\r\n"
 				+ "                </tr>\r\n" + "               \r\n" + "                \r\n"
 				+ "            </table>\r\n" + "       \r\n" + "    </body>\r\n" + "</html>";
-
-		return messageBodyInFormat;
 	}
 
 }
