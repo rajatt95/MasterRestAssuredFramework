@@ -1,13 +1,16 @@
 package com.spotify.oauth2.utils;
 
+import static com.spotify.oauth2.java_Mail_API.EmailConfig.FROM;
+import static com.spotify.oauth2.java_Mail_API.EmailConfig.PASSWORD;
+import static com.spotify.oauth2.java_Mail_API.EmailConfig.PORT;
+import static com.spotify.oauth2.java_Mail_API.EmailConfig.SERVER;
+import static com.spotify.oauth2.java_Mail_API.EmailConfig.SUBJECT;
+import static com.spotify.oauth2.java_Mail_API.EmailConfig.TO;
+
 import javax.mail.MessagingException;
-import javax.mail.internet.AddressException;
 
 import com.spotify.oauth2.constants.FrameworkConstants;
 import com.spotify.oauth2.java_Mail_API.EmailAttachmentsSender;
-import com.spotify.oauth2.java_Mail_API.EmailConfig;
-
-import static com.spotify.oauth2.java_Mail_API.EmailConfig.*;
 
 public class EmailSendUtils {
 

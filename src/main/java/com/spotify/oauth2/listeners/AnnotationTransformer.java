@@ -7,7 +7,9 @@ import org.testng.IAnnotationTransformer;
 import org.testng.annotations.ITestAnnotation;
 
 public class AnnotationTransformer implements IAnnotationTransformer {
-	public void transform(ITestAnnotation annotation, Class testClass, Constructor testConstructor, Method testMethod) {
+	@SuppressWarnings("rawtypes")
+	public void transform(ITestAnnotation annotation, Class testClass,
+			Constructor testConstructor, Method testMethod) {
 
 		/**
 		 * I don't need to add these details with Test case
@@ -15,8 +17,8 @@ public class AnnotationTransformer implements IAnnotationTransformer {
 		 * @Test(dataProvider = "getData", dataProviderClass = DataProviderUtils.class)
 		 */
 		annotation.setRetryAnalyzer(RetryFailedTests.class);
-		//annotation.setDataProvider("getData");
-		//annotation.setDataProviderClass(DataProviderUtils.class);
+		// annotation.setDataProvider("getData");
+		// annotation.setDataProviderClass(DataProviderUtils.class);
 
 	}
 }

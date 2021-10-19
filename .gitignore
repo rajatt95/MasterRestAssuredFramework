@@ -3,3 +3,8 @@ allure-results
 ExtentReports.zip
 ExtentReports
 target
+.settings
+test-output
+.classpath
+.project
+z_others
