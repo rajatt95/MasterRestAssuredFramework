@@ -3,20 +3,11 @@
 <suite name="Automation Test Suite for Spotify Playlist APIs"
 	data-provider-thread-count="3">
 
-	<listeners>
-		<listener
-			class-name="com.spotify.oauth2.listeners.AnnotationTransformer"></listener>
-		<listener
-			class-name="com.spotify.oauth2.listeners.ListenerClass"></listener>
-		<listener
-			class-name="com.spotify.oauth2.listeners.MethodInterceptor"></listener>
-	</listeners>
-
 	<!-- thread-count="2" parallel ="methods" -->
 	<!--These values are coming from Maven command (Configured in pom.xml) -->
 	<test name="Regression Tests execution for Spotify Playlist APIs">
 		<packages>
-			<package name="com.spotify.oauth2.tests"></package>
+			<package name="com.spotify.oauth2.tests"/>
 		</packages>
-	</test> <!-- Test -->
-</suite> <!-- Suite -->
+	</test>
+</suite>
