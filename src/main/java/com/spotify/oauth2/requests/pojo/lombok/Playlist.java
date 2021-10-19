@@ -53,6 +53,4 @@ public class Playlist {
 	String type;
 	@JsonProperty("uri")
 	String uri;
-
-	
 }
