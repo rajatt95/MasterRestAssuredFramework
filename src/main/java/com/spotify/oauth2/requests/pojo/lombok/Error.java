@@ -17,5 +17,8 @@ public class Error {
 
 	@JsonProperty("error")
 	private InnerError error;
+	public InnerError getError() {
+        return error;
+  }
 
 }
