@@ -30,7 +30,7 @@ import io.restassured.response.Response;
 
 @Epic("Spotify Oauth 2.0")
 @Feature("Playlist API")
-public class PlaylistTests_OC extends _BaseTest {
+public class PlaylistTests extends _BaseTest {
 
     @Story("Create a playlist story")
     @Link("https://example.org")
