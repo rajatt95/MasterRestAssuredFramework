@@ -24,16 +24,6 @@ import io.restassured.response.Response;
 
 public class RestResource {
 
-	private static void printDetailsInExtentReport(StringWriter writer, Response response) {
-		if (ConfigLoader.getInstance().getRequestDetailsInReports().equalsIgnoreCase(FrameworkConstants.getYes())) {
-			ExtentLogger.info("<details><summary><i><font color=black> Request details: </font></i>" + "</summary>"
-					+ "<pre>" + writer.toString() + "</pre>" + "</details> \n");
-			ExtentLogger.info("<details><summary><i><font color=black> Response details: </font></i>" + "</summary>"
-					+ "<pre>" + response.asString() + "</pre>" + "</details> \n");
-			ExtentLogger.info(MarkupHelper.createCodeBlock(response.asString(), CodeLanguage.JSON));
-		}
-	}
-	
 	public static Response postAccount(HashMap<String, String> formParams) {
 	
 		StringWriter writerRequest;
@@ -131,4 +121,16 @@ public class RestResource {
 		 printDetailsInExtentReport(writerRequest, response);
 		 return response;
 	}
+
+	private static void printDetailsInExtentReport(StringWriter writer, Response response) {
+		if (ConfigLoader.getInstance().getRequestDetailsInReports().equalsIgnoreCase(FrameworkConstants.getYes())) {
+			ExtentLogger.info("<details><summary><i><font color=black> Request details: </font></i>" + "</summary>"
+					+ "<pre>" + writer.toString() + "</pre>" + "</details> \n");
+			ExtentLogger.info("<details><summary><i><font color=black> Response details: </font></i>" + "</summary>"
+					+ "<pre>" + response.asString() + "</pre>" + "</details> \n");
+			ExtentLogger.info(MarkupHelper.createCodeBlock(response.asString(), CodeLanguage.JSON));
+		}
+	}
+	
 }
+

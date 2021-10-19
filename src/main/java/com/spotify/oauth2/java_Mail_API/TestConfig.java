@@ -11,9 +11,11 @@ public class TestConfig {
 	private static String port = "587";
 
 	private static String from = "testtmail95@gmail.com";
-	private static String password = "**********";
+	private static String password = "*******";
 
-	private static String[] to = { /* "rajatvermaa95@gmail.com", */ "testtmail95@gmail.com" };
+	private static String[] to = { /* "**********@gmail.com", */ "testtmail95@gmail.com" };
+
+	
 
 	private static String subject = FrameworkConstants.getProjectName();
 
