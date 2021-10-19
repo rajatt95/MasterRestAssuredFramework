@@ -13,49 +13,46 @@ import java.util.List;
 /**
  * No need of private access modifier with every field
  * 
- * private Boolean collaborative; 
- * Boolean collaborative;
+ * private Boolean collaborative; Boolean collaborative;
  */
-/*Implement without Builder*/
+/* Implement without Builder */
 //@Data
 //@Getter @Setter
-/*Implement with Builder*/
+/* Implement with Builder */
 @Jacksonized
 @Builder
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Playlist {
-    @JsonProperty("collaborative")
-    Boolean collaborative;
-    @JsonProperty("description")
-    String description;
-    @JsonProperty("external_urls")
-    ExternalUrls externalUrls;
-    @JsonProperty("followers")
-    Followers followers;
-    @JsonProperty("href")
-    String href;
-    @JsonProperty("id")
-    String id;
-    @JsonProperty("images")
-    List<Object> images;
-    @JsonProperty("name")
-    String name;
-    @JsonProperty("owner")
-    Owner owner;
-    @JsonProperty("primary_color")
-    Object primaryColor;
-    @JsonProperty("public")
-    Boolean _public;
-    @JsonProperty("snapshot_id")
-    String snapshotId;
-    @JsonProperty("tracks")
-    Tracks tracks;
-    @JsonProperty("type")
-    String type;
-    @JsonProperty("uri")
-    String uri;
-    
-    
-    
-    
+	@JsonProperty("collaborative")
+	Boolean collaborative;
+	@JsonProperty("description")
+	String description;
+	@JsonProperty("external_urls")
+	ExternalUrls externalUrls;
+	@JsonProperty("followers")
+	Followers followers;
+	@JsonProperty("href")
+	String href;
+	@JsonProperty("id")
+	String id;
+	@JsonProperty("images")
+	List<Object> images;
+	@JsonProperty("name")
+	String name;
+	@JsonProperty("owner")
+	Owner owner;
+	@JsonProperty("primary_color")
+	Object primaryColor;
+	@JsonProperty("public")
+	Boolean _public;
+	@JsonProperty("snapshot_id")
+	String snapshotId;
+	@JsonProperty("tracks")
+	Tracks tracks;
+	@JsonProperty("type")
+	String type;
+	@JsonProperty("uri")
+	String uri;
+
+	
 }

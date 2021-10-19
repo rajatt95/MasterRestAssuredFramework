@@ -1,5 +1,5 @@
-/.idea
-/allure-results
-/ExtentReports
+.idea
+allure-results
 ExtentReports.zip
-/target
+ExtentReports
+target
