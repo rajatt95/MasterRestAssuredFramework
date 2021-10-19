@@ -3,6 +3,7 @@ package com.spotify.oauth2.tests;
 import com.spotify.oauth2.listeners.AnnotationTransformer;
 import com.spotify.oauth2.listeners.ListenerClass;
 import com.spotify.oauth2.listeners.MethodInterceptor;
+
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Listeners;
 
@@ -19,8 +20,8 @@ public class _BaseTest {
 	 */
 
 	@BeforeMethod
-	public void beforeMethod(Method m) {
-		System.out.println("STARTING TEST: " + m.getName());
+	public void beforeMethod(Method method) {
+		System.out.println("STARTING TEST: " + method.getName());
 		System.out.println("THREAD ID: " + Thread.currentThread().getId());
 	}
 }

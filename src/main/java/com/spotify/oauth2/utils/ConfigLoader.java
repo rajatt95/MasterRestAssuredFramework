@@ -17,7 +17,7 @@ public class ConfigLoader {
 	private static final String BASE_URI_ACCOUNTS = "base_uri_accounts";
 
 	private static final String OVERRIDE_REPORTS = "override_reports";
-	private static final String REQUEST_DETAILS_IN_REPORTS = "request_details_in_reports";
+	private static final String REQUEST_RESPONSE_DETAILS_IN_REPORTS = "request_response_details_in_reports";
 	private static final String SEND_EMAIL_TO_USERS = "send_email_to_users";
 	private static final String RETRY_FAILED_TESTS = "retry_failed_tests";
 
@@ -125,7 +125,7 @@ public class ConfigLoader {
 	}
 
 	public String getRequestDetailsInReports() {
-		return getPropertyValue(REQUEST_DETAILS_IN_REPORTS);
+		return getPropertyValue(REQUEST_RESPONSE_DETAILS_IN_REPORTS);
 	}
 
 	public String getSendEmailToUsers() {
@@ -133,6 +133,9 @@ public class ConfigLoader {
 	}
 
 	public String getRetryFailedTests() {
+		System.out.println("==============================================================");
+		System.out.println("RETRY_FAILED_TESTS"+RETRY_FAILED_TESTS);
+		System.out.println("==============================================================");
 		return getPropertyValue(RETRY_FAILED_TESTS);
 	}
 

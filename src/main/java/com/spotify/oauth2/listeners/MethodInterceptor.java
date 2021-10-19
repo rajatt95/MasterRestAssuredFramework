@@ -15,7 +15,7 @@ public class MethodInterceptor implements IMethodInterceptor {
 	@Override
 	public List<IMethodInstance> intercept(List<IMethodInstance> methods, ITestContext context) {
 
-		System.out.println("----------------METHOD INTERCEPTOR--------------------------");
+		System.out.println("----------------METHOD INTERCEPTOR: START--------------------------");
 		System.out.println("methods: " + methods);
 
 		List<IMethodInstance> result = new ArrayList<IMethodInstance>();
@@ -38,10 +38,11 @@ public class MethodInterceptor implements IMethodInterceptor {
 		if (testCategory == null) {
 			System.out.println(
 					"Either You are not running the test execution from Maven command line or you are not giving the property -D=testCategory");
+			System.out.println("----------------METHOD INTERCEPTOR: END--------------------------");
 			return methods;
 		} else {
 			return result;
 		}
-
+		
 	}
 }
