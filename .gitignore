@@ -5,8 +5,7 @@
 target
 test-output
 allure-results
-ExtentReports.zip
 ExtentReports
+ExtentReports.zip
 z_others
 src/main/java/com/spotify/oauth2/java_Mail_API/EmailConfig.java
-src/test/java/com/spotify/oauth2/extra/PlaylistTests_Rajat.java
