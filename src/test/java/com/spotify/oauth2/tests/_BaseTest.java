@@ -9,9 +9,17 @@ import org.testng.annotations.Listeners;
 
 import java.lang.reflect.Method;
 
-@Listeners(value = {AnnotationTransformer.class,
-		ListenerClass.class,
-		MethodInterceptor.class})
+@Listeners(value = {
+		/*
+		 * Any TestNG listeners can be loaded by @Listeners, except
+		 * IAnnotationTransformer --> AnnotationTransformer.class can't be loaded.
+		 * Testng need to know IAnnotationTransformer earlier.
+		 */
+		/*
+		 * Issue: https://github.com/cbeust/testng/issues/446
+		 */
+		/* AnnotationTransformer.class, */
+		ListenerClass.class, MethodInterceptor.class })
 public class _BaseTest {
 
 	/*

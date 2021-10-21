@@ -16,10 +16,6 @@ public class RetryFailedTests implements IRetryAnalyzer {
 
 		boolean value = false;
 		if (ConfigLoader.getInstance().getRetryFailedTests().equalsIgnoreCase(FrameworkConstants.getYes())) {
-			System.out.println("==============================================================");
-			System.out.println("FrameworkConstants.getYes(): "+FrameworkConstants.getYes());
-			System.out.println("ConfigLoader.getInstance().getRetryFailedTests(): "+ConfigLoader.getInstance().getRetryFailedTests());
-			System.out.println("==============================================================");
 			if (count < retries) {
 				count++;
 				return true;
