@@ -97,6 +97,14 @@ public class PlaylistTests extends _BaseTest {
                 description(description).
                 _public(_public).
                 build();
+	    
+	    /*
+		 * Playlist playlist = new Playlist(); 
+		 * playlist.setName(name);
+		 * playlist.setDescription(description); 
+		 * playlist.set_public(_public); 
+		 * return playlist;
+		 */
     }
 
     @Step
