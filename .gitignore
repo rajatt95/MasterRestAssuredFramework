@@ -4,8 +4,5 @@
 .project
 target
 test-output
-allure-results
-ExtentReports
 ExtentReports.zip
 z_others
-src/main/java/com/spotify/oauth2/java_Mail_API/EmailConfig.java
