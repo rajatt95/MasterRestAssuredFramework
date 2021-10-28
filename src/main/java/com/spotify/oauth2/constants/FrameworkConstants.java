@@ -22,6 +22,24 @@ public class FrameworkConstants {
 	private static final String EXTENT_REPORT_NAME = "AutomationReport.html";
 	private static String extentReportFilePath = "";
 
+	/* ICONS - START */
+	public static final String ICON_LAPTOP = "<i class='fa fa-laptop' style='font-size:18px'></i>";
+	public static final String ICON_BUG = "<i class='fa fa-bug' ></i>";
+
+	public static final String ICON_SMILEY_PASS = "<i class='fa fa-smile-o' style='font-size:24px'></i>";
+	public static final String ICON_SMILEY_SKIP = "<i class=\"fas fa-frown-open\"></i>";
+	public static final String ICON_SMILEY_FAIL = "<i class='fa fa-frown-o' style='font-size:24px'></i>";
+
+	
+	public static final String ICON_SOCIAL_LINKEDIN_URL = "https://www.linkedin.com/in/rajat-v-3b0685128/";
+	public static final String ICON_SOCIAL_GITHUB_URL = "https://github.com/rajatt95";
+	public static final String ICON_SOCIAL_LINKEDIN = "<a href='" + ICON_SOCIAL_LINKEDIN_URL
+			+ "'><i class='fa fa-linkedin-square' style='font-size:24px'></i></a>";
+	public static final String ICON_SOCIAL_GITHUB = "<a href='" + ICON_SOCIAL_GITHUB_URL
+			+ "'><i class='fa fa-github-square' style='font-size:24px'></i></a>";
+	/* ICONS - END */
+	
+	
 	/** Zip file of Extent Reports */
 	private static final String Zipped_ExtentReports_Folder_Name = "ExtentReports.zip";
 

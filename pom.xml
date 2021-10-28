@@ -19,7 +19,7 @@
 	</properties>
 
 	<build>
-	
+
 
 		<plugins>
 			<plugin>
@@ -111,7 +111,8 @@
 		<dependency>
 			<groupId>com.aventstack</groupId>
 			<artifactId>extentreports</artifactId>
-			<version>5.0.6</version>
+			<!-- <version>5.0.6</version> -->
+			<version>5.0.9</version>
 		</dependency>
 
 		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->

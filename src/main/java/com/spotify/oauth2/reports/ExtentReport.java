@@ -4,6 +4,9 @@ import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
 import java.util.Objects;
+import static com.spotify.oauth2.constants.FrameworkConstants.ICON_LAPTOP;
+import static com.spotify.oauth2.constants.FrameworkConstants.ICON_SOCIAL_GITHUB;
+import static com.spotify.oauth2.constants.FrameworkConstants.ICON_SOCIAL_LINKEDIN;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.reporter.ExtentSparkReporter;
@@ -46,9 +49,14 @@ public final class ExtentReport {
 			spark.config().setDocumentTitle(FrameworkConstants.getProjectName() + " - ALL");
 			spark.config().setReportName(FrameworkConstants.getProjectName() + " - ALL");
 
+//			extent.setSystemInfo("Organization", "Nagarro");
+//			extent.setSystemInfo("Employee", "Rajat Verma");
+//			extent.setSystemInfo("Domain", "Engineering (IT - Software)");
+//			extent.setSystemInfo("Skill", "Test Automation Engineer");
 			extent.setSystemInfo("Organization", "Nagarro");
-			extent.setSystemInfo("Employee", "Rajat Verma");
-			extent.setSystemInfo("Domain", "Engineering (IT - Software)");
+			extent.setSystemInfo("Employee",
+					"<b> Rajat Verma </b>" + " " + ICON_SOCIAL_LINKEDIN + " " + ICON_SOCIAL_GITHUB);
+			extent.setSystemInfo("Domain", "Engineering (IT - Software)"+"  "+ICON_LAPTOP);
 			extent.setSystemInfo("Skill", "Test Automation Engineer");
 		}
 	}
