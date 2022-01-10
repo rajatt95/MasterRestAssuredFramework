@@ -53,7 +53,7 @@ public class Playlist {
 	String type;
 	@JsonProperty("uri")
 	String uri;
-	/*
+
 	public void set_public(Boolean _public) {
 		this._public = _public;
 	}
@@ -76,18 +76,6 @@ public class Playlist {
 
 	public Boolean get_public() {
 		return _public;
-	}*/
-	/*
-	 * public void set_public(Boolean _public) { this._public = _public; } public
-	 * void setDescription(String description) { this.description = description; }
-	 * 
-	 * public void setName(String name) { this.name = name; }
-	 * 
-	 * public String getDescription() { return description; }
-	 * 
-	 * public String getName() { return name; }
-	 * 
-	 * public Boolean get_public() { return _public; }
-	 * 
-	 */	
+	}
+
 }

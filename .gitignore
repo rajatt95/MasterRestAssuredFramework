@@ -4,5 +4,7 @@
 .project
 target
 test-output
+allure-results
+ExtentReports
 ExtentReports.zip
 z_others
