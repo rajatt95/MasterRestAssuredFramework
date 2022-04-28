@@ -10,6 +10,6 @@
 		thread-count="10" parallel="methods">
 		<packages>
 			<package name="com.spotify.oauth2.tests" />
-		</packages>
+		 </packages>
 	</test>
 </suite>

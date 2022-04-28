@@ -9,6 +9,7 @@ public class Followers {
 
     @JsonProperty("href")
     private Object href;
+    
     @JsonProperty("total")
     private Integer total;
 
