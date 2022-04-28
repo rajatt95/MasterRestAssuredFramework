@@ -35,7 +35,7 @@
 <a href="#"><span class="badge badge-primary">Automation Test Suite Report - Master RestAssured Framework - ALL</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Jan 5, 2022 04:44:18 PM</span></a>
+<a href="#"><span class="badge badge-primary">Apr 16, 2022 01:43:34 PM</span></a>
 </li>
 </ul>
 </div>
@@ -86,26 +86,26 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-user"></i></a>
 <ul id="author-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">NISHANT</a><a class="dropdown-item" href="#">RAJAT</a><a class="dropdown-item" href="#">PANKAJ</a><a class="dropdown-item" href="#">GAUTAM</a>
+<a class="dropdown-item" href="#">GAUTAM</a><a class="dropdown-item" href="#">PANKAJ</a><a class="dropdown-item" href="#">NISHANT</a><a class="dropdown-item" href="#">RAJAT</a>
 </ul>
 </li>
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
 <ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
-<a class="dropdown-item" href="#">BVT</a><a class="dropdown-item" href="#">SMOKE</a><a class="dropdown-item" href="#">SANITY</a><a class="dropdown-item" href="#">REGRESSION</a>
+<a class="dropdown-item" href="#">SMOKE</a><a class="dropdown-item" href="#">BVT</a><a class="dropdown-item" href="#">SANITY</a><a class="dropdown-item" href="#">REGRESSION</a>
 </ul>
 </li>
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="pass" test-id="3"
+        <li class="test-item"  status="pass" test-id="1"
           author="NISHANT RAJAT"
-          tag="SANITY REGRESSION SMOKE"
+          tag="SANITY BVT REGRESSION"
           device="">
           <div class="test-detail">
-            <p class="name">ShouldBeAbleToCreateAPlaylist</p>
+            <p class="name">ShouldBeAbleToUpdateAPlaylist</p>
             <p class="text-sm">
-              <span>4:44:20 PM</span> / <span>00:00:39:881</span>
+              <span>1:43:35 PM</span> / <span>00:00:09:765</span>
               <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
@@ -113,17 +113,359 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-pass">ShouldBeAbleToCreateAPlaylist</h5>
-<span class='badge badge-success'>01.05.2022 4:44:20 PM</span>
-<span class='badge badge-danger'>01.05.2022 4:45:00 PM</span>
-<span class='badge badge-default'>00:00:39:881</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<h5 class="test-status text-pass">ShouldBeAbleToUpdateAPlaylist</h5>
+<span class='badge badge-success'>04.16.2022 1:43:35 PM</span>
+<span class='badge badge-danger'>04.16.2022 1:43:45 PM</span>
+<span class='badge badge-default'>00:00:09:765</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
 </div>
 <div class="m-t-15"><span class="badge badge-pill badge-default">NISHANT</span>
 <span class="badge badge-pill badge-default">RAJAT</span>
 <span class="badge badge-pill badge-default">SANITY</span>
+<span class="badge badge-pill badge-default">BVT</span>
+<span class="badge badge-pill badge-default">REGRESSION</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          <details><summary><i><font color=black> Request details: </font></i></summary><pre>Request method:	PUT
+Request URI:	https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description &k_&3c & +a2_#+#U_#&_g++++&_ _#++/R#+&y++1FpAD&4+/",
+    "name": "Playlist H0_ ___ _-",
+    "public": false
+}
+</pre></details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          <details><summary><i><font color=black> Response details: </font></i></summary><pre></pre></details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-4'></div>
+ <script>
+  function jsonTreeCreate4() { 
+   document.getElementById('code-block-json-4').innerHTML = JSONTree.create(); 
+  }
+  jsonTreeCreate4();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          Assertion for Response Status Code - <b> <u> User should be able to update a Playlist </u> </b>   |   <b><i>Actual: </i> </b>200 and <b><i> Expected: </i> </b>200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          <span class='badge white-text green'><b>ShouldBeAbleToUpdateAPlaylist is passed.</b>  <i class='fa fa-smile-o' style='font-size:24px'></i></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="5"
+          author="NISHANT RAJAT"
+          tag="BVT REGRESSION"
+          device="">
+          <div class="test-detail">
+            <p class="name">ShouldNotBeAbleToCreateAPlaylistWithoutName</p>
+            <p class="text-sm">
+              <span>1:43:35 PM</span> / <span>00:00:09:633</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ShouldNotBeAbleToCreateAPlaylistWithoutName</h5>
+<span class='badge badge-success'>04.16.2022 1:43:35 PM</span>
+<span class='badge badge-danger'>04.16.2022 1:43:45 PM</span>
+<span class='badge badge-default'>00:00:09:633</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NISHANT</span>
+<span class="badge badge-pill badge-default">RAJAT</span>
+<span class="badge badge-pill badge-default">BVT</span>
+<span class="badge badge-pill badge-default">REGRESSION</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          <details><summary><i><font color=black> Request details: </font></i></summary><pre>Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/x0308yuzh4ykcgbei7wypx4xw/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description +u7&&_V#&_&04#d/#y++#  x+y&8m_K#& #+++_p.+.e#/NK_#",
+    "name": "",
+    "public": false
+}
+</pre></details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          <details><summary><i><font color=black> Response details: </font></i></summary><pre>{
+  "error" : {
+    "status" : 400,
+    "message" : "Missing required field: name"
+  }
+}</pre></details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-2'></div>
+ <script>
+  function jsonTreeCreate2() { 
+   document.getElementById('code-block-json-2').innerHTML = JSONTree.create({
+  "error" : {
+    "status" : 400,
+    "message" : "Missing required field: name"
+  }
+}); 
+  }
+  jsonTreeCreate2();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          Assertion for Response Status Code - <b> <u> User should not be able to create a Playlist without Name </u> </b>   |   <b><i>Actual: </i> </b>400 and <b><i> Expected: </i> </b>400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          Assertion for Response Custom Field - <b> <u> STATUS </u> </b>   |   <b><i>Actual: </i> </b>400 and <b><i> Expected: </i> </b>400
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          Assertion for Response Custom Field - <b> <u> MSG </u> </b>   |   <b><i>Actual: </i> </b>Missing required field: name and <b><i> Expected: </i> </b>Missing required field: name
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          <span class='badge white-text green'><b>ShouldNotBeAbleToCreateAPlaylistWithoutName is passed.</b>  <i class='fa fa-smile-o' style='font-size:24px'></i></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="2"
+          author="GAUTAM RAJAT"
+          tag="BVT REGRESSION"
+          device="">
+          <div class="test-detail">
+            <p class="name">ShouldNotBeAbleToCreateAPlaylistWithExpiredToken</p>
+            <p class="text-sm">
+              <span>1:43:35 PM</span> / <span>00:00:07:202</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ShouldNotBeAbleToCreateAPlaylistWithExpiredToken</h5>
+<span class='badge badge-success'>04.16.2022 1:43:35 PM</span>
+<span class='badge badge-danger'>04.16.2022 1:43:42 PM</span>
+<span class='badge badge-default'>00:00:07:202</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">GAUTAM</span>
+<span class="badge badge-pill badge-default">RAJAT</span>
+<span class="badge badge-pill badge-default">BVT</span>
+<span class="badge badge-pill badge-default">REGRESSION</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:42 PM</td>
+        <td>
+          <details><summary><i><font color=black> Request details: </font></i></summary><pre>Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/x0308yuzh4ykcgbei7wypx4xw/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description +##9#_U#+#r#E&Z5&&#c__0N&+_ _+D#+3_. ##&& U  # &RG",
+    "name": "Playlist 1O ZZ V -S",
+    "public": false
+}
+</pre></details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:42 PM</td>
+        <td>
+          <details><summary><i><font color=black> Response details: </font></i></summary><pre>{
+  "error": {
+    "status": 401,
+    "message": "Invalid access token"
+  }
+}</pre></details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:42 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-0'></div>
+ <script>
+  function jsonTreeCreate0() { 
+   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({
+  "error": {
+    "status": 401,
+    "message": "Invalid access token"
+  }
+}); 
+  }
+  jsonTreeCreate0();
+ </script>
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:42 PM</td>
+        <td>
+          Assertion for Response Status Code - <b> <u> User should not be able to create a Playlist with Expired Token </u> </b>   |   <b><i>Actual: </i> </b>401 and <b><i> Expected: </i> </b>401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:42 PM</td>
+        <td>
+          Assertion for Response Custom Field - <b> <u> STATUS </u> </b>   |   <b><i>Actual: </i> </b>401 and <b><i> Expected: </i> </b>401
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:42 PM</td>
+        <td>
+          Assertion for Response Custom Field - <b> <u> MSG </u> </b>   |   <b><i>Actual: </i> </b>Invalid access token and <b><i> Expected: </i> </b>Invalid access token
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:42 PM</td>
+        <td>
+          <span class='badge white-text green'><b>ShouldNotBeAbleToCreateAPlaylistWithExpiredToken is passed.</b>  <i class='fa fa-smile-o' style='font-size:24px'></i></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="skip" test-id="4"
+          author="GAUTAM PANKAJ"
+          tag="REGRESSION SMOKE"
+          device="">
+          <div class="test-detail">
+            <p class="name">ShouldBeAbleToGetAPlaylist</p>
+            <p class="text-sm">
+              <span>1:43:35 PM</span> / <span>00:00:09:857</span>
+              <span class="badge skip-bg log float-right">Skip</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-skip">ShouldBeAbleToGetAPlaylist</h5>
+<span class='badge badge-success'>04.16.2022 1:43:35 PM</span>
+<span class='badge badge-danger'>04.16.2022 1:43:45 PM</span>
+<span class='badge badge-default'>00:00:09:857</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">GAUTAM</span>
+<span class="badge badge-pill badge-default">PANKAJ</span>
 <span class="badge badge-pill badge-default">REGRESSION</span>
 <span class="badge badge-pill badge-default">SMOKE</span></div>
 </div>
@@ -133,7 +475,7 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:44:57 PM</td>
+        <td>1:43:42 PM</td>
         <td>
           <details><summary><i><font color=black> Request details: </font></i></summary><pre>Request method:	POST
 Request URI:	https://accounts.spotify.com/api/token
@@ -156,224 +498,29 @@ Body:			<none>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:44:57 PM</td>
+        <td>1:43:42 PM</td>
         <td>
-          <details><summary><i><font color=black> Response details: </font></i></summary><pre>{"access_token":"BQDrPiR0vkk8AQ0WaotmfWHyP_Qa27NXAxNl75MGx_8PT-90YBvJj1CFbrSDSS7ZyIIDmiVHSMEdpML8yWeH3pU_sA7ERY4hEBRfIJCW3D4X9n3zLUIM2epGNtUdyKYVsAguJXUnX_AgL2RqGgQkQeF2ywVmfXi6ou6YN0ovqu_qfoFBz4jbRodFyTUMKAXPG46mXbDPsk9JJd1yuQTgtBxLIqHyepIEhUqjjPODOVst","token_type":"Bearer","expires_in":3600,"scope":"playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"}</pre></details> 
+          <details><summary><i><font color=black> Response details: </font></i></summary><pre>{"access_token":"BQCV7x3seHjpNaciTbrkhigiYEyrwDATNxMxtR8Ow1pe33wy5Egj1oS_heJTsrlKFxlMuSGJsSo1mUW157OkuJJOfVDtWIuohtq8smSdrJVbOOGXXUdoJa5QC7QnzY4PRgoE22lY1tthvNU2MNdF0exiVAx58w387sGRMtt5U-SwsomaiIPKt4JtP5jdqxfTfSmh_qkTb6F8lQtA839BnTbU4efaTyBCH2IR4Nl2X-ra","token_type":"Bearer","expires_in":3600,"scope":"playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"}</pre></details> 
 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:44:57 PM</td>
+        <td>1:43:42 PM</td>
         <td>
-           <div class='json-tree' id='code-block-json-0'></div>
+           <div class='json-tree' id='code-block-json-1'></div>
  <script>
-  function jsonTreeCreate0() { 
-   document.getElementById('code-block-json-0').innerHTML = JSONTree.create({"access_token":"BQDrPiR0vkk8AQ0WaotmfWHyP_Qa27NXAxNl75MGx_8PT-90YBvJj1CFbrSDSS7ZyIIDmiVHSMEdpML8yWeH3pU_sA7ERY4hEBRfIJCW3D4X9n3zLUIM2epGNtUdyKYVsAguJXUnX_AgL2RqGgQkQeF2ywVmfXi6ou6YN0ovqu_qfoFBz4jbRodFyTUMKAXPG46mXbDPsk9JJd1yuQTgtBxLIqHyepIEhUqjjPODOVst","token_type":"Bearer","expires_in":3600,"scope":"playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"}); 
+  function jsonTreeCreate1() { 
+   document.getElementById('code-block-json-1').innerHTML = JSONTree.create({"access_token":"BQCV7x3seHjpNaciTbrkhigiYEyrwDATNxMxtR8Ow1pe33wy5Egj1oS_heJTsrlKFxlMuSGJsSo1mUW157OkuJJOfVDtWIuohtq8smSdrJVbOOGXXUdoJa5QC7QnzY4PRgoE22lY1tthvNU2MNdF0exiVAx58w387sGRMtt5U-SwsomaiIPKt4JtP5jdqxfTfSmh_qkTb6F8lQtA839BnTbU4efaTyBCH2IR4Nl2X-ra","token_type":"Bearer","expires_in":3600,"scope":"playlist-read-private playlist-read-collaborative playlist-modify-private playlist-modify-public"}); 
   }
-  jsonTreeCreate0();
+  jsonTreeCreate1();
  </script>
 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-          <details><summary><i><font color=black> Request details: </font></i></summary><pre>Request method:	POST
-Request URI:	https://api.spotify.com/v1/users/x0308yuzh4ykcgbei7wypx4xw/playlists
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "Description 6#_l+_#+rp+&  &#qy& #/36 _3iTZ&2#J _O+ C#E+F8d_&31",
-    "name": "Playlist p 8_M_x8_7",
-    "public": false
-}
-</pre></details> 
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-          <details><summary><i><font color=black> Response details: </font></i></summary><pre>{
-  "collaborative" : false,
-  "description" : "Description 6#_l+_#+rp+&  &#qy& #/36 _3iTZ&2#J _O+ C#E+F8d_&31",
-  "external_urls" : {
-    "spotify" : "https://open.spotify.com/playlist/77wr7A2pqXW298XBw0RbeR"
-  },
-  "followers" : {
-    "href" : null,
-    "total" : 0
-  },
-  "href" : "https://api.spotify.com/v1/playlists/77wr7A2pqXW298XBw0RbeR",
-  "id" : "77wr7A2pqXW298XBw0RbeR",
-  "images" : [ ],
-  "name" : "Playlist p 8_M_x8_7",
-  "owner" : {
-    "display_name" : "Testtmail95",
-    "external_urls" : {
-      "spotify" : "https://open.spotify.com/user/x0308yuzh4ykcgbei7wypx4xw"
-    },
-    "href" : "https://api.spotify.com/v1/users/x0308yuzh4ykcgbei7wypx4xw",
-    "id" : "x0308yuzh4ykcgbei7wypx4xw",
-    "type" : "user",
-    "uri" : "spotify:user:x0308yuzh4ykcgbei7wypx4xw"
-  },
-  "primary_color" : null,
-  "public" : false,
-  "snapshot_id" : "MSxmZDc5NTI1MDgzMzNkYmRkNzI5MjUzODlmMDNhYTkwZjlkN2MyNWI5",
-  "tracks" : {
-    "href" : "https://api.spotify.com/v1/playlists/77wr7A2pqXW298XBw0RbeR/tracks",
-    "items" : [ ],
-    "limit" : 100,
-    "next" : null,
-    "offset" : 0,
-    "previous" : null,
-    "total" : 0
-  },
-  "type" : "playlist",
-  "uri" : "spotify:playlist:77wr7A2pqXW298XBw0RbeR"
-}</pre></details> 
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-           <div class='json-tree' id='code-block-json-2'></div>
- <script>
-  function jsonTreeCreate2() { 
-   document.getElementById('code-block-json-2').innerHTML = JSONTree.create({
-  "collaborative" : false,
-  "description" : "Description 6#_l+_#+rp+&  &#qy& #/36 _3iTZ&2#J _O+ C#E+F8d_&31",
-  "external_urls" : {
-    "spotify" : "https://open.spotify.com/playlist/77wr7A2pqXW298XBw0RbeR"
-  },
-  "followers" : {
-    "href" : null,
-    "total" : 0
-  },
-  "href" : "https://api.spotify.com/v1/playlists/77wr7A2pqXW298XBw0RbeR",
-  "id" : "77wr7A2pqXW298XBw0RbeR",
-  "images" : [ ],
-  "name" : "Playlist p 8_M_x8_7",
-  "owner" : {
-    "display_name" : "Testtmail95",
-    "external_urls" : {
-      "spotify" : "https://open.spotify.com/user/x0308yuzh4ykcgbei7wypx4xw"
-    },
-    "href" : "https://api.spotify.com/v1/users/x0308yuzh4ykcgbei7wypx4xw",
-    "id" : "x0308yuzh4ykcgbei7wypx4xw",
-    "type" : "user",
-    "uri" : "spotify:user:x0308yuzh4ykcgbei7wypx4xw"
-  },
-  "primary_color" : null,
-  "public" : false,
-  "snapshot_id" : "MSxmZDc5NTI1MDgzMzNkYmRkNzI5MjUzODlmMDNhYTkwZjlkN2MyNWI5",
-  "tracks" : {
-    "href" : "https://api.spotify.com/v1/playlists/77wr7A2pqXW298XBw0RbeR/tracks",
-    "items" : [ ],
-    "limit" : 100,
-    "next" : null,
-    "offset" : 0,
-    "previous" : null,
-    "total" : 0
-  },
-  "type" : "playlist",
-  "uri" : "spotify:playlist:77wr7A2pqXW298XBw0RbeR"
-}); 
-  }
-  jsonTreeCreate2();
- </script>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-          Assertion for Response Status Code - <b> <u> User should be able to create a Playlist </u> </b>   |   <b><i>Actual: </i> </b>201 and <b><i> Expected: </i> </b>201
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-          Assertion for Response Custom Field - <b> <u> NAME </u> </b>   |   <b><i>Actual: </i> </b>Playlist p 8_M_x8_7 and <b><i> Expected: </i> </b>Playlist p 8_M_x8_7
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-          Assertion for Response Custom Field - <b> <u> DESCRIPTION </u> </b>   |   <b><i>Actual: </i> </b>Description 6#_l+_#+rp+&  &#qy& #/36 _3iTZ&2#J _O+ C#E+F8d_&31 and <b><i> Expected: </i> </b>Description 6#_l+_#+rp+&  &#qy& #/36 _3iTZ&2#J _O+ C#E+F8d_&31
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-          Assertion for Response Custom Field - <b> <u> PUBLIC </u> </b>   |   <b><i>Actual: </i> </b>false and <b><i> Expected: </i> </b>false
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-          <span class='badge white-text green'><b>ShouldBeAbleToCreateAPlaylist is passed.</b>  <i class='fa fa-smile-o' style='font-size:24px'></i></span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="skip" test-id="5"
-          author="GAUTAM PANKAJ"
-          tag="REGRESSION SMOKE"
-          device="">
-          <div class="test-detail">
-            <p class="name">ShouldBeAbleToGetAPlaylist</p>
-            <p class="text-sm">
-              <span>4:44:20 PM</span> / <span>00:00:45:760</span>
-              <span class="badge skip-bg log float-right">Skip</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-skip">ShouldBeAbleToGetAPlaylist</h5>
-<span class='badge badge-success'>01.05.2022 4:44:20 PM</span>
-<span class='badge badge-danger'>01.05.2022 4:45:06 PM</span>
-<span class='badge badge-default'>00:00:45:760</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">GAUTAM</span>
-<span class="badge badge-pill badge-default">PANKAJ</span>
-<span class="badge badge-pill badge-default">REGRESSION</span>
-<span class="badge badge-pill badge-default">SMOKE</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:06 PM</td>
+        <td>1:43:45 PM</td>
         <td>
           <details><summary><i><font color=black> Request details: </font></i></summary><pre>Request method:	GET
 Request URI:	https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW
@@ -393,11 +540,11 @@ Body:			<none>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:06 PM</td>
+        <td>1:43:45 PM</td>
         <td>
           <details><summary><i><font color=black> Response details: </font></i></summary><pre>{
   "collaborative" : false,
-  "description" : "Description  s_G&amp;_H#h#_ s ##&amp;#_DB8# _&amp;&amp;&amp;#_b x&amp;_vo_780_&amp;#&amp;_&amp;m N",
+  "description" : "Description # #&amp;u+++ _ 0_ @_5_#J U+D#+   R_  m++#  do+# &amp;w&amp;7#j",
   "external_urls" : {
     "spotify" : "https://open.spotify.com/playlist/66ogA2UdD3fMkFzySDO5wW"
   },
@@ -408,7 +555,7 @@ Body:			<none>
   "href" : "https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW",
   "id" : "66ogA2UdD3fMkFzySDO5wW",
   "images" : [ ],
-  "name" : "Playlist 46m- XW,0_",
+  "name" : "Playlist KZruJiZ _o",
   "owner" : {
     "display_name" : "Testtmail95",
     "external_urls" : {
@@ -421,7 +568,7 @@ Body:			<none>
   },
   "primary_color" : null,
   "public" : false,
-  "snapshot_id" : "MzEwLDg4OGRjOTk4MmMwYmJiYmM2NmFkZGY5YTUwODgxMTVkMmRmZjM0NzU=",
+  "snapshot_id" : "NjkwLDQ1NTYzYzk1NDMzZmVlNjE4NmYwZmE5YmQzYjM3M2Y1NjU5ZTcyY2U=",
   "tracks" : {
     "href" : "https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW/tracks?offset=0&limit=100",
     "items" : [ ],
@@ -439,387 +586,49 @@ Body:			<none>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:06 PM</td>
-        <td>
-           <div class='json-tree' id='code-block-json-4'></div>
- <script>
-  function jsonTreeCreate4() { 
-   document.getElementById('code-block-json-4').innerHTML = JSONTree.create({
-  "collaborative" : false,
-  "description" : "Description  s_G&amp;_H#h#_ s ##&amp;#_DB8# _&amp;&amp;&amp;#_b x&amp;_vo_780_&amp;#&amp;_&amp;m N",
-  "external_urls" : {
-    "spotify" : "https://open.spotify.com/playlist/66ogA2UdD3fMkFzySDO5wW"
-  },
-  "followers" : {
-    "href" : null,
-    "total" : 0
-  },
-  "href" : "https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW",
-  "id" : "66ogA2UdD3fMkFzySDO5wW",
-  "images" : [ ],
-  "name" : "Playlist 46m- XW,0_",
-  "owner" : {
-    "display_name" : "Testtmail95",
-    "external_urls" : {
-      "spotify" : "https://open.spotify.com/user/x0308yuzh4ykcgbei7wypx4xw"
-    },
-    "href" : "https://api.spotify.com/v1/users/x0308yuzh4ykcgbei7wypx4xw",
-    "id" : "x0308yuzh4ykcgbei7wypx4xw",
-    "type" : "user",
-    "uri" : "spotify:user:x0308yuzh4ykcgbei7wypx4xw"
-  },
-  "primary_color" : null,
-  "public" : false,
-  "snapshot_id" : "MzEwLDg4OGRjOTk4MmMwYmJiYmM2NmFkZGY5YTUwODgxMTVkMmRmZjM0NzU=",
-  "tracks" : {
-    "href" : "https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW/tracks?offset=0&limit=100",
-    "items" : [ ],
-    "limit" : 100,
-    "next" : null,
-    "offset" : 0,
-    "previous" : null,
-    "total" : 0
-  },
-  "type" : "playlist",
-  "uri" : "spotify:playlist:66ogA2UdD3fMkFzySDO5wW"
-}); 
-  }
-  jsonTreeCreate4();
- </script>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:06 PM</td>
-        <td>
-          Assertion for Response Status Code - <b> <u> User should be able to get the Playlist details </u> </b>   |   <b><i>Actual: </i> </b>200 and <b><i> Expected: </i> </b>200
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>4:45:06 PM</td>
-        <td>
-          <i class='fa fa-bug' ></i>  <b><i>java.lang.AssertionError: 
-Expected: "Updated Playlist Name"
-     but: was "Playlist 46m- XW,0_"</i></b>
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log skip-bg">Skip</span></td>
-        <td>4:45:06 PM</td>
-        <td>
-          <span class='badge white-text yellow'><b>ShouldBeAbleToGetAPlaylist is skipped.</b>  <i class='fa fa-frown-o' style='font-size:24px'></i></span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="4"
-          author="NISHANT RAJAT"
-          tag="SANITY BVT REGRESSION"
-          device="">
-          <div class="test-detail">
-            <p class="name">ShouldBeAbleToUpdateAPlaylist</p>
-            <p class="text-sm">
-              <span>4:44:20 PM</span> / <span>00:00:50:623</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">ShouldBeAbleToUpdateAPlaylist</h5>
-<span class='badge badge-success'>01.05.2022 4:44:20 PM</span>
-<span class='badge badge-danger'>01.05.2022 4:45:11 PM</span>
-<span class='badge badge-default'>00:00:50:623</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">NISHANT</span>
-<span class="badge badge-pill badge-default">RAJAT</span>
-<span class="badge badge-pill badge-default">SANITY</span>
-<span class="badge badge-pill badge-default">BVT</span>
-<span class="badge badge-pill badge-default">REGRESSION</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:11 PM</td>
-        <td>
-          <details><summary><i><font color=black> Request details: </font></i></summary><pre>Request method:	PUT
-Request URI:	https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "Description ##_4  v56l++& uM b5PVm 3+&P1C5&&& o5##_ #&  @&+YI+",
-    "name": "Playlist     1- ,UX",
-    "public": false
-}
-</pre></details> 
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:11 PM</td>
-        <td>
-          <details><summary><i><font color=black> Response details: </font></i></summary><pre></pre></details> 
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:11 PM</td>
-        <td>
-           <div class='json-tree' id='code-block-json-5'></div>
- <script>
-  function jsonTreeCreate5() { 
-   document.getElementById('code-block-json-5').innerHTML = JSONTree.create(); 
-  }
-  jsonTreeCreate5();
- </script>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:11 PM</td>
-        <td>
-          Assertion for Response Status Code - <b> <u> User should be able to update a Playlist </u> </b>   |   <b><i>Actual: </i> </b>200 and <b><i> Expected: </i> </b>200
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:11 PM</td>
-        <td>
-          <span class='badge white-text green'><b>ShouldBeAbleToUpdateAPlaylist is passed.</b>  <i class='fa fa-smile-o' style='font-size:24px'></i></span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="1"
-          author="NISHANT RAJAT"
-          tag="BVT REGRESSION"
-          device="">
-          <div class="test-detail">
-            <p class="name">ShouldNotBeAbleToCreateAPlaylistWithoutName</p>
-            <p class="text-sm">
-              <span>4:44:20 PM</span> / <span>00:00:39:881</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">ShouldNotBeAbleToCreateAPlaylistWithoutName</h5>
-<span class='badge badge-success'>01.05.2022 4:44:20 PM</span>
-<span class='badge badge-danger'>01.05.2022 4:45:00 PM</span>
-<span class='badge badge-default'>00:00:39:881</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">NISHANT</span>
-<span class="badge badge-pill badge-default">RAJAT</span>
-<span class="badge badge-pill badge-default">BVT</span>
-<span class="badge badge-pill badge-default">REGRESSION</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-          <details><summary><i><font color=black> Request details: </font></i></summary><pre>Request method:	POST
-Request URI:	https://api.spotify.com/v1/users/x0308yuzh4ykcgbei7wypx4xw/playlists
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "Description hJq_v&z___m__e__gqEAhZf_L.L&#QV+.+ &_+#a&Tsl&#Z ##",
-    "name": "",
-    "public": false
-}
-</pre></details> 
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-          <details><summary><i><font color=black> Response details: </font></i></summary><pre>{
-  "error" : {
-    "status" : 400,
-    "message" : "Missing required field: name"
-  }
-}</pre></details> 
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-           <div class='json-tree' id='code-block-json-1'></div>
- <script>
-  function jsonTreeCreate1() { 
-   document.getElementById('code-block-json-1').innerHTML = JSONTree.create({
-  "error" : {
-    "status" : 400,
-    "message" : "Missing required field: name"
-  }
-}); 
-  }
-  jsonTreeCreate1();
- </script>
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-          Assertion for Response Status Code - <b> <u> User should not be able to create a Playlist without Name </u> </b>   |   <b><i>Actual: </i> </b>400 and <b><i> Expected: </i> </b>400
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-          Assertion for Response Custom Field - <b> <u> STATUS </u> </b>   |   <b><i>Actual: </i> </b>400 and <b><i> Expected: </i> </b>400
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-          Assertion for Response Custom Field - <b> <u> MSG </u> </b>   |   <b><i>Actual: </i> </b>Missing required field: name and <b><i> Expected: </i> </b>Missing required field: name
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:00 PM</td>
-        <td>
-          <span class='badge white-text green'><b>ShouldNotBeAbleToCreateAPlaylistWithoutName is passed.</b>  <i class='fa fa-smile-o' style='font-size:24px'></i></span>
-        </td>
-      </tr>
-  </tbody>
-</table>
-</div>
-          </div>
-        </li>
-        <li class="test-item"  status="pass" test-id="2"
-          author="GAUTAM RAJAT"
-          tag="BVT REGRESSION"
-          device="">
-          <div class="test-detail">
-            <p class="name">ShouldNotBeAbleToCreateAPlaylistWithExpiredToken</p>
-            <p class="text-sm">
-              <span>4:44:20 PM</span> / <span>00:00:40:506</span>
-              <span class="badge pass-bg log float-right">Pass</span>
-            </p>
-          </div>
-          <div class="test-contents d-none">
-<div class="detail-head">
-<div class="p-v-10">
-<div class="info">
-<h5 class="test-status text-pass">ShouldNotBeAbleToCreateAPlaylistWithExpiredToken</h5>
-<span class='badge badge-success'>01.05.2022 4:44:20 PM</span>
-<span class='badge badge-danger'>01.05.2022 4:45:01 PM</span>
-<span class='badge badge-default'>00:00:40:506</span>
-&middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
-<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
-<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
-</div>
-<div class="m-t-15"><span class="badge badge-pill badge-default">GAUTAM</span>
-<span class="badge badge-pill badge-default">RAJAT</span>
-<span class="badge badge-pill badge-default">BVT</span>
-<span class="badge badge-pill badge-default">REGRESSION</span></div>
-</div>
-</div><div class="detail-body mt-4">
-<table class="table table-sm">
-  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
-  <tbody>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:01 PM</td>
-        <td>
-          <details><summary><i><font color=black> Request details: </font></i></summary><pre>Request method:	POST
-Request URI:	https://api.spotify.com/v1/users/x0308yuzh4ykcgbei7wypx4xw/playlists
-Proxy:			<none>
-Request params:	<none>
-Query params:	<none>
-Form params:	<none>
-Path params:	<none>
-Headers:		Accept=*/*
-				Content-Type=application/json
-Cookies:		<none>
-Multiparts:		<none>
-Body:
-{
-    "description": "Description 8#_&#&d4+cG# &+8&#&   rk+_2 3_S&/D&E+j4_-e_#+# W#_",
-    "name": "Playlist SR__W4T3,_",
-    "public": false
-}
-</pre></details> 
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:01 PM</td>
-        <td>
-          <details><summary><i><font color=black> Response details: </font></i></summary><pre>{
-  "error": {
-    "status": 401,
-    "message": "Invalid access token"
-  }
-}</pre></details> 
-
-        </td>
-      </tr>
-      <tr class="event-row">
-        <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:01 PM</td>
+        <td>1:43:45 PM</td>
         <td>
            <div class='json-tree' id='code-block-json-3'></div>
  <script>
   function jsonTreeCreate3() { 
    document.getElementById('code-block-json-3').innerHTML = JSONTree.create({
-  "error": {
-    "status": 401,
-    "message": "Invalid access token"
-  }
+  "collaborative" : false,
+  "description" : "Description # #&amp;u+++ _ 0_ @_5_#J U+D#+   R_  m++#  do+# &amp;w&amp;7#j",
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/playlist/66ogA2UdD3fMkFzySDO5wW"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  },
+  "href" : "https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW",
+  "id" : "66ogA2UdD3fMkFzySDO5wW",
+  "images" : [ ],
+  "name" : "Playlist KZruJiZ _o",
+  "owner" : {
+    "display_name" : "Testtmail95",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/user/x0308yuzh4ykcgbei7wypx4xw"
+    },
+    "href" : "https://api.spotify.com/v1/users/x0308yuzh4ykcgbei7wypx4xw",
+    "id" : "x0308yuzh4ykcgbei7wypx4xw",
+    "type" : "user",
+    "uri" : "spotify:user:x0308yuzh4ykcgbei7wypx4xw"
+  },
+  "primary_color" : null,
+  "public" : false,
+  "snapshot_id" : "NjkwLDQ1NTYzYzk1NDMzZmVlNjE4NmYwZmE5YmQzYjM3M2Y1NjU5ZTcyY2U=",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW/tracks?offset=0&limit=100",
+    "items" : [ ],
+    "limit" : 100,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 0
+  },
+  "type" : "playlist",
+  "uri" : "spotify:playlist:66ogA2UdD3fMkFzySDO5wW"
 }); 
   }
   jsonTreeCreate3();
@@ -829,30 +638,221 @@ Body:
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:01 PM</td>
+        <td>1:43:45 PM</td>
         <td>
-          Assertion for Response Status Code - <b> <u> User should not be able to create a Playlist with Expired Token </u> </b>   |   <b><i>Actual: </i> </b>401 and <b><i> Expected: </i> </b>401
+          Assertion for Response Status Code - <b> <u> User should be able to get the Playlist details </u> </b>   |   <b><i>Actual: </i> </b>200 and <b><i> Expected: </i> </b>200
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          <i class='fa fa-bug' ></i>  <b><i>java.lang.AssertionError: 
+Expected: "Updated Playlist Name"
+     but: was "Playlist KZruJiZ _o"</i></b>
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log skip-bg">Skip</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          <span class='badge white-text yellow'><b>ShouldBeAbleToGetAPlaylist is skipped.</b>  <i class='fa fa-frown-o' style='font-size:24px'></i></span>
+        </td>
+      </tr>
+  </tbody>
+</table>
+</div>
+          </div>
+        </li>
+        <li class="test-item"  status="pass" test-id="3"
+          author="NISHANT RAJAT"
+          tag="SANITY REGRESSION SMOKE"
+          device="">
+          <div class="test-detail">
+            <p class="name">ShouldBeAbleToCreateAPlaylist</p>
+            <p class="text-sm">
+              <span>1:43:35 PM</span> / <span>00:00:09:843</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">ShouldBeAbleToCreateAPlaylist</h5>
+<span class='badge badge-success'>04.16.2022 1:43:35 PM</span>
+<span class='badge badge-danger'>04.16.2022 1:43:45 PM</span>
+<span class='badge badge-default'>00:00:09:843</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-15"><span class="badge badge-pill badge-default">NISHANT</span>
+<span class="badge badge-pill badge-default">RAJAT</span>
+<span class="badge badge-pill badge-default">SANITY</span>
+<span class="badge badge-pill badge-default">REGRESSION</span>
+<span class="badge badge-pill badge-default">SMOKE</span></div>
+</div>
+</div><div class="detail-body mt-4">
+<table class="table table-sm">
+  <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
+  <tbody>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          <details><summary><i><font color=black> Request details: </font></i></summary><pre>Request method:	POST
+Request URI:	https://api.spotify.com/v1/users/x0308yuzh4ykcgbei7wypx4xw/playlists
+Proxy:			<none>
+Request params:	<none>
+Query params:	<none>
+Form params:	<none>
+Path params:	<none>
+Headers:		Accept=*/*
+				Content-Type=application/json
+Cookies:		<none>
+Multiparts:		<none>
+Body:
+{
+    "description": "Description F&_zw7k_8__L +#_ 3#&W& +_J6+G&&-vG5W& +V ##8 8_&+F",
+    "name": "Playlist e,2_0z_b _",
+    "public": false
+}
+</pre></details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          <details><summary><i><font color=black> Response details: </font></i></summary><pre>{
+  "collaborative" : false,
+  "description" : "Description F&_zw7k_8__L +#_ 3#&W& +_J6+G&&-vG5W& +V ##8 8_&+F",
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/playlist/5Xt7qSZUF7L2XShsePyeYD"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  },
+  "href" : "https://api.spotify.com/v1/playlists/5Xt7qSZUF7L2XShsePyeYD",
+  "id" : "5Xt7qSZUF7L2XShsePyeYD",
+  "images" : [ ],
+  "name" : "Playlist e,2_0z_b _",
+  "owner" : {
+    "display_name" : "Testtmail95",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/user/x0308yuzh4ykcgbei7wypx4xw"
+    },
+    "href" : "https://api.spotify.com/v1/users/x0308yuzh4ykcgbei7wypx4xw",
+    "id" : "x0308yuzh4ykcgbei7wypx4xw",
+    "type" : "user",
+    "uri" : "spotify:user:x0308yuzh4ykcgbei7wypx4xw"
+  },
+  "primary_color" : null,
+  "public" : false,
+  "snapshot_id" : "MSxhNThiYzNlOTMxZTRlNGFlNGIyYzZiMjhlMmIzODkyOTJjOTAyZWM0",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/playlists/5Xt7qSZUF7L2XShsePyeYD/tracks",
+    "items" : [ ],
+    "limit" : 100,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 0
+  },
+  "type" : "playlist",
+  "uri" : "spotify:playlist:5Xt7qSZUF7L2XShsePyeYD"
+}</pre></details> 
+
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log info-bg">Info</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+           <div class='json-tree' id='code-block-json-5'></div>
+ <script>
+  function jsonTreeCreate5() { 
+   document.getElementById('code-block-json-5').innerHTML = JSONTree.create({
+  "collaborative" : false,
+  "description" : "Description F&_zw7k_8__L +#_ 3#&W& +_J6+G&&-vG5W& +V ##8 8_&+F",
+  "external_urls" : {
+    "spotify" : "https://open.spotify.com/playlist/5Xt7qSZUF7L2XShsePyeYD"
+  },
+  "followers" : {
+    "href" : null,
+    "total" : 0
+  },
+  "href" : "https://api.spotify.com/v1/playlists/5Xt7qSZUF7L2XShsePyeYD",
+  "id" : "5Xt7qSZUF7L2XShsePyeYD",
+  "images" : [ ],
+  "name" : "Playlist e,2_0z_b _",
+  "owner" : {
+    "display_name" : "Testtmail95",
+    "external_urls" : {
+      "spotify" : "https://open.spotify.com/user/x0308yuzh4ykcgbei7wypx4xw"
+    },
+    "href" : "https://api.spotify.com/v1/users/x0308yuzh4ykcgbei7wypx4xw",
+    "id" : "x0308yuzh4ykcgbei7wypx4xw",
+    "type" : "user",
+    "uri" : "spotify:user:x0308yuzh4ykcgbei7wypx4xw"
+  },
+  "primary_color" : null,
+  "public" : false,
+  "snapshot_id" : "MSxhNThiYzNlOTMxZTRlNGFlNGIyYzZiMjhlMmIzODkyOTJjOTAyZWM0",
+  "tracks" : {
+    "href" : "https://api.spotify.com/v1/playlists/5Xt7qSZUF7L2XShsePyeYD/tracks",
+    "items" : [ ],
+    "limit" : 100,
+    "next" : null,
+    "offset" : 0,
+    "previous" : null,
+    "total" : 0
+  },
+  "type" : "playlist",
+  "uri" : "spotify:playlist:5Xt7qSZUF7L2XShsePyeYD"
+}); 
+  }
+  jsonTreeCreate5();
+ </script>
+
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:01 PM</td>
+        <td>1:43:45 PM</td>
         <td>
-          Assertion for Response Custom Field - <b> <u> STATUS </u> </b>   |   <b><i>Actual: </i> </b>401 and <b><i> Expected: </i> </b>401
+          Assertion for Response Status Code - <b> <u> User should be able to create a Playlist </u> </b>   |   <b><i>Actual: </i> </b>201 and <b><i> Expected: </i> </b>201
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:01 PM</td>
+        <td>1:43:45 PM</td>
         <td>
-          Assertion for Response Custom Field - <b> <u> MSG </u> </b>   |   <b><i>Actual: </i> </b>Invalid access token and <b><i> Expected: </i> </b>Invalid access token
+          Assertion for Response Custom Field - <b> <u> NAME </u> </b>   |   <b><i>Actual: </i> </b>Playlist e,2_0z_b _ and <b><i> Expected: </i> </b>Playlist e,2_0z_b _
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:01 PM</td>
+        <td>1:43:45 PM</td>
         <td>
-          <span class='badge white-text green'><b>ShouldNotBeAbleToCreateAPlaylistWithExpiredToken is passed.</b>  <i class='fa fa-smile-o' style='font-size:24px'></i></span>
+          Assertion for Response Custom Field - <b> <u> DESCRIPTION </u> </b>   |   <b><i>Actual: </i> </b>Description F&_zw7k_8__L +#_ 3#&W& +_J6+G&&-vG5W& +V ##8 8_&+F and <b><i> Expected: </i> </b>Description F&_zw7k_8__L +#_ 3#&W& +_J6+G&&-vG5W& +V ##8 8_&+F
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          Assertion for Response Custom Field - <b> <u> PUBLIC </u> </b>   |   <b><i>Actual: </i> </b>false and <b><i> Expected: </i> </b>false
+        </td>
+      </tr>
+      <tr class="event-row">
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>1:43:45 PM</td>
+        <td>
+          <span class='badge white-text green'><b>ShouldBeAbleToCreateAPlaylist is passed.</b>  <i class='fa fa-smile-o' style='font-size:24px'></i></span>
         </td>
       </tr>
   </tbody>
@@ -867,7 +867,7 @@ Body:
           <div class="test-detail">
             <p class="name">ShouldBeAbleToGetAPlaylist</p>
             <p class="text-sm">
-              <span>4:45:06 PM</span> / <span>00:00:09:769</span>
+              <span>1:43:45 PM</span> / <span>00:00:00:356</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -876,9 +876,9 @@ Body:
 <div class="p-v-10">
 <div class="info">
 <h5 class="test-status text-fail">ShouldBeAbleToGetAPlaylist</h5>
-<span class='badge badge-success'>01.05.2022 4:45:06 PM</span>
-<span class='badge badge-danger'>01.05.2022 4:45:16 PM</span>
-<span class='badge badge-default'>00:00:09:769</span>
+<span class='badge badge-success'>04.16.2022 1:43:45 PM</span>
+<span class='badge badge-danger'>04.16.2022 1:43:45 PM</span>
+<span class='badge badge-default'>00:00:00:356</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=6</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -894,7 +894,7 @@ Body:
   <tbody>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:16 PM</td>
+        <td>1:43:45 PM</td>
         <td>
           <details><summary><i><font color=black> Request details: </font></i></summary><pre>Request method:	GET
 Request URI:	https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW
@@ -914,11 +914,11 @@ Body:			<none>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:16 PM</td>
+        <td>1:43:45 PM</td>
         <td>
           <details><summary><i><font color=black> Response details: </font></i></summary><pre>{
   "collaborative" : false,
-  "description" : "Description ##_4  v56l++&amp; uM b5PVm 3+&amp;P1C5&amp;&amp;&amp; o5##_ #&amp;  @&amp;+YI+",
+  "description" : "Description &amp;k_&amp;3c &amp; +a2_#+#U_#&amp;_g++++&amp;_ _#++&#x2F;R#+&amp;y++1FpAD&amp;4+&#x2F;",
   "external_urls" : {
     "spotify" : "https://open.spotify.com/playlist/66ogA2UdD3fMkFzySDO5wW"
   },
@@ -929,7 +929,7 @@ Body:			<none>
   "href" : "https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW",
   "id" : "66ogA2UdD3fMkFzySDO5wW",
   "images" : [ ],
-  "name" : "Playlist     1- ,UX",
+  "name" : "Playlist H0_ ___ _-",
   "owner" : {
     "display_name" : "Testtmail95",
     "external_urls" : {
@@ -942,7 +942,7 @@ Body:			<none>
   },
   "primary_color" : null,
   "public" : false,
-  "snapshot_id" : "MzEzLDRiZTYxMDI0NGQzZmVmYzkzOTZlNmUyMDI1MjExYmQxNDVjOWIyYjI=",
+  "snapshot_id" : "NjkzLGMzMWIxMDhkYzdkNTk4NjIzZWYxYTM1NzRmYTc5MjU4NjNjOWNjYTc=",
   "tracks" : {
     "href" : "https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW/tracks?offset=0&limit=100",
     "items" : [ ],
@@ -960,14 +960,14 @@ Body:			<none>
       </tr>
       <tr class="event-row">
         <td><span class="badge log info-bg">Info</span></td>
-        <td>4:45:16 PM</td>
+        <td>1:43:45 PM</td>
         <td>
            <div class='json-tree' id='code-block-json-6'></div>
  <script>
   function jsonTreeCreate6() { 
    document.getElementById('code-block-json-6').innerHTML = JSONTree.create({
   "collaborative" : false,
-  "description" : "Description ##_4  v56l++&amp; uM b5PVm 3+&amp;P1C5&amp;&amp;&amp; o5##_ #&amp;  @&amp;+YI+",
+  "description" : "Description &amp;k_&amp;3c &amp; +a2_#+#U_#&amp;_g++++&amp;_ _#++&#x2F;R#+&amp;y++1FpAD&amp;4+&#x2F;",
   "external_urls" : {
     "spotify" : "https://open.spotify.com/playlist/66ogA2UdD3fMkFzySDO5wW"
   },
@@ -978,7 +978,7 @@ Body:			<none>
   "href" : "https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW",
   "id" : "66ogA2UdD3fMkFzySDO5wW",
   "images" : [ ],
-  "name" : "Playlist     1- ,UX",
+  "name" : "Playlist H0_ ___ _-",
   "owner" : {
     "display_name" : "Testtmail95",
     "external_urls" : {
@@ -991,7 +991,7 @@ Body:			<none>
   },
   "primary_color" : null,
   "public" : false,
-  "snapshot_id" : "MzEzLDRiZTYxMDI0NGQzZmVmYzkzOTZlNmUyMDI1MjExYmQxNDVjOWIyYjI=",
+  "snapshot_id" : "NjkzLGMzMWIxMDhkYzdkNTk4NjIzZWYxYTM1NzRmYTc5MjU4NjNjOWNjYTc=",
   "tracks" : {
     "href" : "https://api.spotify.com/v1/playlists/66ogA2UdD3fMkFzySDO5wW/tracks?offset=0&limit=100",
     "items" : [ ],
@@ -1012,31 +1012,31 @@ Body:			<none>
       </tr>
       <tr class="event-row">
         <td><span class="badge log pass-bg">Pass</span></td>
-        <td>4:45:16 PM</td>
+        <td>1:43:45 PM</td>
         <td>
           Assertion for Response Status Code - <b> <u> User should be able to get the Playlist details </u> </b>   |   <b><i>Actual: </i> </b>200 and <b><i> Expected: </i> </b>200
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>4:45:16 PM</td>
+        <td>1:43:45 PM</td>
         <td>
           <i class='fa fa-bug' ></i>  <b><i>java.lang.AssertionError: 
 Expected: "Updated Playlist Name"
-     but: was "Playlist     1- ,UX"</i></b>
+     but: was "Playlist H0_ ___ _-"</i></b>
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>4:45:16 PM</td>
+        <td>1:43:45 PM</td>
         <td>
-          <details><summary><b><font color=red> Exception occured, click to see details: <i class='fa fa-frown-o' style='font-size:24px'></i> </font></b></summary>[org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)<br> org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)<br> com.spotify.oauth2.tests.PlaylistTests.assertPlaylistEqual(PlaylistTests.java:111)<br> com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToGetAPlaylist(PlaylistTests.java:58)<br> sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br> sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br> sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br> java.lang.reflect.Method.invoke(Method.java:498)<br> org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br> org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br> org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)<br> org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)<br> org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br> org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br> org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br> org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)<br> java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)<br> java.lang.Thread.run(Thread.java:748)]</details> 
+          <details><summary><b><font color=red> Exception occured, click to see details: <i class='fa fa-frown-o' style='font-size:24px'></i> </font></b></summary>[org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:18)<br> org.hamcrest.MatcherAssert.assertThat(MatcherAssert.java:6)<br> com.spotify.oauth2.tests.PlaylistTests.assertPlaylistEqual(PlaylistTests.java:111)<br> com.spotify.oauth2.tests.PlaylistTests.ShouldBeAbleToGetAPlaylist(PlaylistTests.java:58)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br> java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)<br> java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)<br> java.base/java.lang.reflect.Method.invoke(Method.java:566)<br> org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)<br> org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)<br> org.testng.internal.TestInvoker.retryFailed(TestInvoker.java:213)<br> org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:58)<br> org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)<br> org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)<br> org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)<br> org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)<br> java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)<br> java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)<br> java.base/java.lang.Thread.run(Thread.java:834)]</details> 
 
         </td>
       </tr>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>4:45:16 PM</td>
+        <td>1:43:45 PM</td>
         <td>
           <span class='badge white-text red'><b>ShouldBeAbleToGetAPlaylist is failed.</b>  <i class='fa fa-frown-o' style='font-size:24px'></i></span>
         </td>
@@ -1066,53 +1066,6 @@ Expected: "Updated Playlist Name"
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>3</span>
-</span>
-<p class="name">BVT</p>
-<p class="duration text-sm">3 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>BVT</h4>
-<span status="pass" class='badge log pass-bg'>3 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='2' id='2'>ShouldNotBeAbleToCreateAPlaylistWithExpiredToken</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='1'>ShouldNotBeAbleToCreateAPlaylistWithoutName</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='4' id='4'>ShouldBeAbleToUpdateAPlaylist</a>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
 <span class='badge log pass-bg'>1</span>
 <span class='badge log badge-danger'>1</span>
 <span class='badge log badge-skip'>1</span>
@@ -1138,23 +1091,70 @@ Expected: "Updated Playlist Name"
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
+<td>13:43:35 PM</td>
 <td>
 <a href="#" class="linked" test-id='3' id='3'>ShouldBeAbleToCreateAPlaylist</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="skip">
 <td><span class="badge log skip-bg">Skip</span></td>
-<td>16:44:20 PM</td>
+<td>13:43:35 PM</td>
 <td>
-<a href="#" class="linked" test-id='5' id='5'>ShouldBeAbleToGetAPlaylist</a>
+<a href="#" class="linked" test-id='4' id='4'>ShouldBeAbleToGetAPlaylist</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>16:45:06 PM</td>
+<td>13:43:45 PM</td>
 <td>
 <a href="#" class="linked" test-id='6' id='6'>ShouldBeAbleToGetAPlaylist</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">BVT</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>BVT</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:43:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>ShouldNotBeAbleToCreateAPlaylistWithoutName</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:43:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='2' id='2'>ShouldNotBeAbleToCreateAPlaylistWithExpiredToken</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:43:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>ShouldBeAbleToUpdateAPlaylist</a>
 </td>
 </tr>
 </tbody>
@@ -1185,16 +1185,16 @@ Expected: "Updated Playlist Name"
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
+<td>13:43:35 PM</td>
 <td>
 <a href="#" class="linked" test-id='3' id='3'>ShouldBeAbleToCreateAPlaylist</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
+<td>13:43:35 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='4'>ShouldBeAbleToUpdateAPlaylist</a>
+<a href="#" class="linked" test-id='1' id='1'>ShouldBeAbleToUpdateAPlaylist</a>
 </td>
 </tr>
 </tbody>
@@ -1229,42 +1229,42 @@ Expected: "Updated Playlist Name"
 <tbody>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='2' id='2'>ShouldNotBeAbleToCreateAPlaylistWithExpiredToken</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='1'>ShouldNotBeAbleToCreateAPlaylistWithoutName</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
+<td>13:43:35 PM</td>
 <td>
 <a href="#" class="linked" test-id='3' id='3'>ShouldBeAbleToCreateAPlaylist</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="skip">
-<td><span class="badge log skip-bg">Skip</span></td>
-<td>16:44:20 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:43:35 PM</td>
 <td>
-<a href="#" class="linked" test-id='5' id='5'>ShouldBeAbleToGetAPlaylist</a>
+<a href="#" class="linked" test-id='5' id='5'>ShouldNotBeAbleToCreateAPlaylistWithoutName</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
+<td>13:43:35 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='4'>ShouldBeAbleToUpdateAPlaylist</a>
+<a href="#" class="linked" test-id='2' id='2'>ShouldNotBeAbleToCreateAPlaylistWithExpiredToken</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>13:43:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='4' id='4'>ShouldBeAbleToGetAPlaylist</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:43:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>ShouldBeAbleToUpdateAPlaylist</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>16:45:06 PM</td>
+<td>13:43:45 PM</td>
 <td>
 <a href="#" class="linked" test-id='6' id='6'>ShouldBeAbleToGetAPlaylist</a>
 </td>
@@ -1292,15 +1292,19 @@ Expected: "Updated Playlist Name"
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>3</span>
+<span class='badge log pass-bg'>1</span>
+<span class='badge log badge-danger'>1</span>
+<span class='badge log badge-skip'>1</span>
 </span>
-<p class="name">NISHANT</p>
+<p class="name">GAUTAM</p>
 <p class="duration text-sm">3 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>NISHANT</h4>
-<span status="pass" class='badge log pass-bg'>3 passed</span>
+<h4>GAUTAM</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+<span status="fail" class='badge log badge-danger'>1 failed</span>
+<span status="skip" class='badge log badge-skip'>1 skipped</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1311,79 +1315,25 @@ Expected: "Updated Playlist Name"
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
+<tr class="tag-test-status" status="skip">
+<td><span class="badge log skip-bg">Skip</span></td>
+<td>13:43:35 PM</td>
 <td>
-<a href="#" class="linked" test-id='4' id='4'>ShouldBeAbleToUpdateAPlaylist</a>
+<a href="#" class="linked" test-id='4' id='4'>ShouldBeAbleToGetAPlaylist</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='3' id='3'>ShouldBeAbleToCreateAPlaylist</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='1'>ShouldNotBeAbleToCreateAPlaylistWithoutName</a>
-</td>
-</tr>
-</tbody>
-</table>
-</div>
-</li>
-<li class="test-item">
-<div class="test-detail">
-<span class="meta">
-<span class='badge log pass-bg'>4</span>
-</span>
-<p class="name">RAJAT</p>
-<p class="duration text-sm">4 tests</p>
-</div>
-<div class="test-contents d-none">
-<div class="info">
-<h4>RAJAT</h4>
-<span status="pass" class='badge log pass-bg'>4 passed</span>
-</div>
-<table class='table table-sm mt-4'>
-<thead>
-<tr>
-<th class="status-col">Status</th>
-<th class="timestamp-col">Timestamp</th>
-<th>TestName</th>
-</tr>
-</thead>
-<tbody>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='4' id='4'>ShouldBeAbleToUpdateAPlaylist</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='3' id='3'>ShouldBeAbleToCreateAPlaylist</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
-<td>
-<a href="#" class="linked" test-id='1' id='1'>ShouldNotBeAbleToCreateAPlaylistWithoutName</a>
-</td>
-</tr>
-<tr class="tag-test-status" status="pass">
-<td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
+<td>13:43:35 PM</td>
 <td>
 <a href="#" class="linked" test-id='2' id='2'>ShouldNotBeAbleToCreateAPlaylistWithExpiredToken</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="fail">
+<td><span class="badge log fail-bg">Fail</span></td>
+<td>13:43:45 PM</td>
+<td>
+<a href="#" class="linked" test-id='6' id='6'>ShouldBeAbleToGetAPlaylist</a>
 </td>
 </tr>
 </tbody>
@@ -1416,14 +1366,14 @@ Expected: "Updated Playlist Name"
 <tbody>
 <tr class="tag-test-status" status="skip">
 <td><span class="badge log skip-bg">Skip</span></td>
-<td>16:44:20 PM</td>
+<td>13:43:35 PM</td>
 <td>
-<a href="#" class="linked" test-id='5' id='5'>ShouldBeAbleToGetAPlaylist</a>
+<a href="#" class="linked" test-id='4' id='4'>ShouldBeAbleToGetAPlaylist</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="fail">
 <td><span class="badge log fail-bg">Fail</span></td>
-<td>16:45:06 PM</td>
+<td>13:43:45 PM</td>
 <td>
 <a href="#" class="linked" test-id='6' id='6'>ShouldBeAbleToGetAPlaylist</a>
 </td>
@@ -1435,19 +1385,15 @@ Expected: "Updated Playlist Name"
 <li class="test-item">
 <div class="test-detail">
 <span class="meta">
-<span class='badge log pass-bg'>1</span>
-<span class='badge log badge-danger'>1</span>
-<span class='badge log badge-skip'>1</span>
+<span class='badge log pass-bg'>3</span>
 </span>
-<p class="name">GAUTAM</p>
+<p class="name">NISHANT</p>
 <p class="duration text-sm">3 tests</p>
 </div>
 <div class="test-contents d-none">
 <div class="info">
-<h4>GAUTAM</h4>
-<span status="pass" class='badge log pass-bg'>1 passed</span>
-<span status="fail" class='badge log badge-danger'>1 failed</span>
-<span status="skip" class='badge log badge-skip'>1 skipped</span>
+<h4>NISHANT</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
 </div>
 <table class='table table-sm mt-4'>
 <thead>
@@ -1458,25 +1404,79 @@ Expected: "Updated Playlist Name"
 </tr>
 </thead>
 <tbody>
-<tr class="tag-test-status" status="skip">
-<td><span class="badge log skip-bg">Skip</span></td>
-<td>16:44:20 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:43:35 PM</td>
 <td>
-<a href="#" class="linked" test-id='5' id='5'>ShouldBeAbleToGetAPlaylist</a>
+<a href="#" class="linked" test-id='1' id='1'>ShouldBeAbleToUpdateAPlaylist</a>
 </td>
 </tr>
 <tr class="tag-test-status" status="pass">
 <td><span class="badge log pass-bg">Pass</span></td>
-<td>16:44:20 PM</td>
+<td>13:43:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='3' id='3'>ShouldBeAbleToCreateAPlaylist</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:43:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>ShouldNotBeAbleToCreateAPlaylistWithoutName</a>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">RAJAT</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>RAJAT</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:43:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='1' id='1'>ShouldBeAbleToUpdateAPlaylist</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:43:35 PM</td>
 <td>
 <a href="#" class="linked" test-id='2' id='2'>ShouldNotBeAbleToCreateAPlaylistWithExpiredToken</a>
 </td>
 </tr>
-<tr class="tag-test-status" status="fail">
-<td><span class="badge log fail-bg">Fail</span></td>
-<td>16:45:06 PM</td>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:43:35 PM</td>
 <td>
-<a href="#" class="linked" test-id='6' id='6'>ShouldBeAbleToGetAPlaylist</a>
+<a href="#" class="linked" test-id='3' id='3'>ShouldBeAbleToCreateAPlaylist</a>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>13:43:35 PM</td>
+<td>
+<a href="#" class="linked" test-id='5' id='5'>ShouldNotBeAbleToCreateAPlaylistWithoutName</a>
 </td>
 </tr>
 </tbody>
@@ -1496,13 +1496,13 @@ Expected: "Updated Playlist Name"
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Jan 5, 2022 04:44:18 PM</h3>
+<h3>Apr 16, 2022 01:43:34 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Jan 5, 2022 04:45:21 PM</h3>
+<h3>Apr 16, 2022 01:43:46 PM</h3>
 </div></div>
 </div>
 <div class="col-md-3">
@@ -1572,7 +1572,7 @@ Expected: "Updated Playlist Name"
 </div></div>
 <script>
 var timeline = {
-"ShouldBeAbleToCreateAPlaylist":39.881,"ShouldBeAbleToGetAPlaylist":45.76,"ShouldBeAbleToUpdateAPlaylist":50.623,"ShouldNotBeAbleToCreateAPlaylistWithoutName":39.881,"ShouldNotBeAbleToCreateAPlaylistWithExpiredToken":40.506,"ShouldBeAbleToGetAPlaylist":9.769
+"ShouldBeAbleToUpdateAPlaylist":9.765,"ShouldNotBeAbleToCreateAPlaylistWithoutName":9.633,"ShouldNotBeAbleToCreateAPlaylistWithExpiredToken":7.202,"ShouldBeAbleToGetAPlaylist":9.857,"ShouldBeAbleToCreateAPlaylist":9.843,"ShouldBeAbleToGetAPlaylist":0.356
 };
 </script>
 <div class="row">
@@ -1582,6 +1582,22 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead>
 <tbody>
+<tr>
+<td>GAUTAM</td>
+<td>1</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>33.333%</td>
+</tr>
+<tr>
+<td>PANKAJ</td>
+<td>0</td>
+<td>1</td>
+<td>1</td>
+<td>0</td>
+<td>0%</td>
+</tr>
 <tr>
 <td>NISHANT</td>
 <td>3</td>
@@ -1598,22 +1614,6 @@ var timeline = {
 <td>0</td>
 <td>100%</td>
 </tr>
-<tr>
-<td>PANKAJ</td>
-<td>0</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>0%</td>
-</tr>
-<tr>
-<td>GAUTAM</td>
-<td>1</td>
-<td>1</td>
-<td>1</td>
-<td>0</td>
-<td>33.333%</td>
-</tr>
 </tbody>
 </table></div>
 </div>
@@ -1624,20 +1624,20 @@ var timeline = {
 <div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
 <thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
 <tr>
-<td>BVT</td>
-<td>3</td>
-<td>0</td>
-<td>0</td>
-<td>0</td>
-<td>100%</td>
-</tr>
-<tr>
 <td>SMOKE</td>
 <td>1</td>
 <td>1</td>
 <td>1</td>
 <td>0</td>
 <td>33.333%</td>
+</tr>
+<tr>
+<td>BVT</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
 </tr>
 <tr>
 <td>SANITY</td>
